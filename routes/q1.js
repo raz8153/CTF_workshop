@@ -14,7 +14,7 @@ router.get('/q1/message',(req, res, next)=>{
 })
 
 router.post('/q1',(req,res, next)=>{
-    if (req.body.q1=='mec2020'){
+    if (req.body.q1=='HACKERMAN'){
         res.redirect('/q2')
     }
     else{

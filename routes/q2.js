@@ -10,7 +10,7 @@ router.get('/q2',(req, res, next)=>{
 
 router.post('/q2',(req,res, next)=>{
     
-    if(req.body.q2=='hackclub2020'){
+    if(req.body.q2=='hackclub-2020'){
        res.redirect('/q3')
     }
     else{

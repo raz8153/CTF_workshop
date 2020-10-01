@@ -9,7 +9,7 @@ router.get('/q3',(req, res, next)=>{
 });
 
 router.post('/q3',(req, res, next)=>{
-    if(req.body.q3=='ff2700'){
+    if(req.body.q3=='#ff2700'){
         res.redirect('/q4')
     }
     else{
